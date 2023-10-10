@@ -1,0 +1,62 @@
+body {
+    font-family: 'Onest', sans-serif;
+    color: rgb(255, 255, 255);
+    background-image: url("https://drive.google.com/uc?export=view&id=1KVDapld513gDp4XOaLft0qfmeyxhszdV");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    background-color: white;
+    font-weight: 700;
+    color: black;
+    padding: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #logo {
+    display: grid;
+    place-items: center;
+  }
+  
+  #logo-img {
+    display: none;
+    width: 200px;
+  }
+  
+  .about-us,
+  .quarterly,
+  #favorites {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #location-hours {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .day {
+    text-align: left;
+    padding-right: 50px;
+  }
+  
+  ul li {
+    list-style-type: none;
+  }
+  
+  li span {
+    padding: 0px 10px;
+  }
